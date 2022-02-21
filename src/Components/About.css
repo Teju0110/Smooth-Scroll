@@ -1,0 +1,60 @@
+#about{
+	width:100%;
+	height: 120vh;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+.about_details{
+    width: 45%;
+    color: #fff;
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+.about_details
+ h1{
+	font-size: 3rem;
+	color:black;
+    font-weight: 500;
+}
+.about_details
+ p{
+    width: 80%;
+	font-size: 1.2rem;
+	color:#1c95a0;
+    text-align: center;
+	
+}
+
+.about_btn {
+	width:160px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: black;
+    box-shadow: 5px 10px 30px rgba(207, 204, 204, 0.336);
+    border-radius: 5px;
+	color:white;
+}
+.about_btn:hover{
+	background-color: transparent;
+    transition: all ease 0.5s;
+    color: black;
+    border: 2px solid black;
+}
+
+.about_img{
+    width: 50%;
+
+}
+.about_img img{
+  width: 600px;
+}

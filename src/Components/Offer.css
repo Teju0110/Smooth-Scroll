@@ -1,0 +1,60 @@
+#offer{
+    padding-top: 30px;
+    width:100%;
+    height:600px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Images/offerBG.jpg);
+    text-align: center;
+}
+
+.offer_heading{
+    text-align: center;
+	font-family:'Lato';
+	width: 600px;
+	position: absolute;
+    left: 50%;
+	top: 55%;
+	transform: translate(-50%,-55%);
+}
+
+.offer_heading h1{
+	font-family:'Lato';
+	font-size: 4rem;
+	letter-spacing: 2px;
+	color:#ffffff;
+}
+
+.offer_heading span{
+    color: #042225;
+}
+.offer_heading p{
+    font-size: 23px;
+    color: #042225;
+    font-weight: bold;
+}
+
+.offer_btn{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+.offer_btn btn{
+	width:160px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(207, 204, 204, 0.336);
+    border-radius: 5px;
+	color:black;
+}
+.offer_btn btn:hover{
+	background-color: transparent;
+    transition: all ease 0.5s;
+    color: #ffffff;
+    border: 2px solid white;
+}
